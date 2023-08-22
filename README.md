@@ -1,2 +1,2 @@
 # PokeApp
-Pokemon-App; choose your pokemon
+Pokemon App with animations, beautiful UI, network call  and awesome features.
