@@ -61,7 +61,7 @@ class _HomepageState extends State<Homepage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Poke App'),
-        backgroundColor: Colors.cyan,
+        backgroundColor: Color.fromARGB(255, 215, 178, 123),
         //centerTitle: true,
         actions: <Widget>[
           IconButton(
@@ -87,7 +87,7 @@ class _HomepageState extends State<Homepage> {
         onPressed: () {
           scrollToTop();
         },
-        backgroundColor: Colors.cyan,
+        backgroundColor:Color.fromARGB(255, 215, 178, 123),
         child: Icon(Icons.refresh),
       ),
       body: pokeHub.pokemon == null
